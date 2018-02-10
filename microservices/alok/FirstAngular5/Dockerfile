@@ -7,7 +7,7 @@ RUN npm install
 COPY . /usr/src/app
 EXPOSE 4200
 CMD ["npm","start"]
-ng serve -H 0.0.0.0
+
 
 #new docker config#
 #FROM node:8
